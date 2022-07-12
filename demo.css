@@ -249,38 +249,6 @@
 }
 
 
-/* <!-- =============================== * ad 1 * ============================================ --> */
-
-
-
-
-.ad_img img{
-    width: 800px;
-    position: relative;
-    z-index: -1;
-}
-.ad_img{
-    width: 800px;
-    margin: auto;
-    margin-top: 35px;
-    height: 200px;
-    position: relative;
-}
-.ad_img i{
-    position: absolute;
-    top: 0%;
-    right: 0%;
-    z-index: 1;
-    cursor: pointer;
-}
-
-
-
-
-
-
-
-
 
 
 
@@ -336,7 +304,7 @@ width: 250px;
 
 
 
-/* <!-- =============================== * lode more * ============================================ --> */
+/* <!-- =============================== * load more * ============================================ --> */
 
 
 
@@ -362,98 +330,3 @@ width: 250px;
 
 
 
-/* <!-- =============================== * ad 2 * ============================================ --> */
-
-
-
-.ads_img2{
-    width: 800px;
-    margin: auto;
-    margin-top: 35px;
-    height: 200px;
-    position: relative;
-}
-.ads_img2 img{
-    width: 800px;
-    position: relative;
-    z-index: 1;
-    border: 1px solid black;
-}
-.ads_img2 i{
-    border: none;
-    position: absolute;
-    top: 0%;
-    right: 0%;
-    z-index: 2;
-    cursor: pointer;
-}
-
-
-
-/* <!-- =============================== * downlode * ============================================ --> */
-
-
-
-.downlode_app{
-    background-color: #f7f8f9;
-}
-.downlode{
-    margin: 100px 0 0 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.imges{
-    width: 400px;
-}
-.text{
-    border-right: 2px solid #cacdce;
-}
-.text h1{
-    padding: 20px 20px 10px 20px ;
-    font-size: 35px;
-}
-.text p{
-    padding: 10px 20px 20px 20px;
-    font-size: 20px;
-}
-.downlode_store p{
-    padding: 20px 20px 20px 0;
-    font-weight: bold;
-    font-size: 17px;
-}
-.downlode_store{
-    padding-left: 30px;
-}
-.downlode_store img{
-  width: 140px;
-  padding-left: 20px;
-  cursor: pointer;
-}
-
-
-
-
-
-/* <!-- =============================== * footer * ============================================ --> */
-
-
-.Main_footerP{
-    background-color: #ebeeef;
-}
-.footer{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 1200px;
-    margin: auto;
-}
-.footer_box h2{
-    font-size: 17px;
-    margin: 10px 0 15px 0;
-    cursor: pointer;
-}
-.footer_box p{
-    margin: 8px 0 8px 0;
-    cursor: pointer;
-}
